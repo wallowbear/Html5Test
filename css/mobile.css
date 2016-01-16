@@ -1,8 +1,8 @@
 *{ margin:0px; padding:0px;}
-.adBanner{ position:relative; width:800px;border:5px solid #0CF;}
-.clear{ zoom:1}
-.clear:after{ content:""; display:block; clear:both;}
+.adBanner{ position:relative; width:800px;border:5px solid #0CF; height:300px;}
+.clear{ zoom:1 }
+.clear:after{ content:""; display:block;}
 
-.adBanner ul{ position:absolute; left:0px;};
+.adBanner ul{ position:absolute; left:0px;}
 .adBanner li{float:left; }
-.adBanner img{display:inline-block; width:200; height:auto}
+.adBanner img{display:inline-block; width:200px; height:auto}
