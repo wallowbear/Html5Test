@@ -1,0 +1,6 @@
+
+*{ margin:0px; padding:0px;}
+.iosContainer{ overflow:hidden; border:1px solid #000; width:300px; height:600px; position:relative;}
+
+.iosContainer ul{position:absolute;}
+.iosContainer li{ list-style:none; width:100px;}
