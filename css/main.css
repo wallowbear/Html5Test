@@ -3,10 +3,11 @@
 .fr{float:right;}
 .clear{zoom:1;}
 .clear:after{content:""; display:block;clear:both;}
+.page{width:100%; height:100px; position:absolute; top:0px; border:1px solid #000000;}
 
 .header{ height:50px;}
 .main{width:80%;margin:auto; position:relative ; border:1px solid #000000}
-.footer{height:50px;}
+.footer{height:50px; clear:both;}
 .btnRoundCorner{ border:1px solid #000; border-radius:5px; }
 
 
@@ -14,4 +15,4 @@
 .header .fl{ position:absolute; left:50px; padding:5px;}
 
 
-.main li{ display:inline-block; width:calc(25%-4px); height:50px; border:1px solid #000000;float:left; list-style:none; background:#54B541}
+.main li{ display:inline-block; width:calc(25% - 2px); height:50px; border:1px solid #000000;float:left; list-style:none; background:#54B541}
